@@ -226,9 +226,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 2
+  X: 7
+  Y: 1
   Figure: {fileID: 0}
 --- !u!1 &20576422
 GameObject:
@@ -343,9 +343,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 4
+  X: 4
+  Y: 8
   Figure: {fileID: 0}
 --- !u!1 &21354945
 GameObject:
@@ -460,10 +460,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
-  Figure: {fileID: 0}
+  Color: 5
+  X: 8
+  Y: 3
+  Figure: {fileID: 517849893}
 --- !u!1 &49597982
 GameObject:
   m_ObjectHideFlags: 0
@@ -578,9 +578,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Color: 0
-  X: 0
-  Y: 0
-  Figure: {fileID: 0}
+  X: 8
+  Y: 8
+  Figure: {fileID: 2123221133}
 --- !u!1 &57524140
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,9 +811,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 5
+  X: 3
+  Y: 4
   Figure: {fileID: 0}
 --- !u!1 &92918167
 GameObject:
@@ -1020,9 +1020,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 2
+  X: 4
+  Y: 2
   Figure: {fileID: 0}
 --- !u!1 &95999147
 GameObject:
@@ -1137,9 +1137,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 1
+  X: 4
+  Y: 3
   Figure: {fileID: 0}
 --- !u!1 &144020580
 GameObject:
@@ -1254,10 +1254,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
-  Figure: {fileID: 0}
+  Color: 4
+  X: 1
+  Y: 5
+  Figure: {fileID: 973035525}
 --- !u!1 &233188383
 GameObject:
   m_ObjectHideFlags: 0
@@ -1371,9 +1371,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 5
+  X: 7
+  Y: 8
   Figure: {fileID: 0}
 --- !u!1 &243571187
 GameObject:
@@ -1817,8 +1817,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Color: 0
-  X: 0
-  Y: 0
+  X: 2
+  Y: 2
   Figure: {fileID: 0}
 --- !u!1 &312033556
 GameObject:
@@ -1934,8 +1934,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Color: 0
-  X: 0
-  Y: 0
+  X: 5
+  Y: 5
   Figure: {fileID: 0}
 --- !u!1 &321456097
 GameObject:
@@ -2050,9 +2050,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 3
+  X: 5
+  Y: 8
   Figure: {fileID: 0}
 --- !u!1 &370779199
 GameObject:
@@ -2167,9 +2167,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 2
+  X: 4
+  Y: 6
   Figure: {fileID: 0}
 --- !u!1 &398203684
 GameObject:
@@ -2284,9 +2284,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 7
+  X: 5
+  Y: 4
   Figure: {fileID: 0}
 --- !u!1 &399620291
 GameObject:
@@ -2401,10 +2401,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6153c99cf6801a44fb1ae30f058f4a96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  UserType: 0
+  Color: 5
+  UserType: 1
   IdUser: 0
-  Cell: {fileID: 0}
+  Cell: {fileID: 1236013588}
 --- !u!1 &460125019
 GameObject:
   m_ObjectHideFlags: 0
@@ -2518,10 +2518,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
-  Figure: {fileID: 0}
+  Color: 2
+  X: 1
+  Y: 3
+  Figure: {fileID: 551508847}
 --- !u!1 &461025196
 GameObject:
   m_ObjectHideFlags: 0
@@ -2635,9 +2635,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 6
+  X: 7
+  Y: 5
   Figure: {fileID: 0}
 --- !u!1 &484048527
 GameObject:
@@ -2752,10 +2752,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
-  Figure: {fileID: 0}
+  Color: 7
+  X: 8
+  Y: 1
+  Figure: {fileID: 1646504372}
 --- !u!1 &500751793
 GameObject:
   m_ObjectHideFlags: 0
@@ -2869,10 +2869,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
-  Figure: {fileID: 0}
+  Color: 3
+  X: 1
+  Y: 4
+  Figure: {fileID: 504448817}
 --- !u!1 &504448813
 GameObject:
   m_ObjectHideFlags: 0
@@ -2986,10 +2986,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6153c99cf6801a44fb1ae30f058f4a96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  UserType: 0
+  Color: 3
+  UserType: 1
   IdUser: 0
-  Cell: {fileID: 0}
+  Cell: {fileID: 500751797}
 --- !u!1 &507354331
 GameObject:
   m_ObjectHideFlags: 0
@@ -3391,10 +3391,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6153c99cf6801a44fb1ae30f058f4a96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  UserType: 0
+  Color: 2
+  UserType: 1
   IdUser: 0
-  Cell: {fileID: 0}
+  Cell: {fileID: 460125023}
 --- !u!1 &559628606
 GameObject:
   m_ObjectHideFlags: 0
@@ -3508,9 +3508,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 7
+  X: 7
+  Y: 2
   Figure: {fileID: 0}
 --- !u!1 &612448888
 GameObject:
@@ -3742,10 +3742,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
-  Figure: {fileID: 0}
+  Color: 1
+  X: 1
+  Y: 2
+  Figure: {fileID: 1130109361}
 --- !u!1 &654961943
 GameObject:
   m_ObjectHideFlags: 0
@@ -3859,10 +3859,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
-  Figure: {fileID: 0}
+  Color: 1
+  X: 8
+  Y: 7
+  Figure: {fileID: 1500135683}
 --- !u!1 &676362091
 GameObject:
   m_ObjectHideFlags: 0
@@ -3976,9 +3976,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 5
+  X: 5
+  Y: 2
   Figure: {fileID: 0}
 --- !u!1 &693672406
 GameObject:
@@ -4093,9 +4093,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 6
+  X: 6
+  Y: 8
   Figure: {fileID: 0}
 --- !u!1 &706014618
 GameObject:
@@ -4210,9 +4210,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 2
+  X: 5
+  Y: 7
   Figure: {fileID: 0}
 --- !u!1 &742590402
 GameObject:
@@ -4327,9 +4327,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 4
+  X: 5
+  Y: 1
   Figure: {fileID: 0}
 --- !u!1 &749943035
 GameObject:
@@ -4444,9 +4444,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 6
+  X: 5
+  Y: 3
   Figure: {fileID: 0}
 --- !u!1 &758231407
 GameObject:
@@ -4561,9 +4561,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 1
+  X: 5
+  Y: 6
   Figure: {fileID: 0}
 --- !u!1 &760991555
 GameObject:
@@ -4678,9 +4678,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 3
+  X: 3
+  Y: 2
   Figure: {fileID: 0}
 --- !u!1 &799551678
 GameObject:
@@ -4795,9 +4795,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 1
+  X: 2
+  Y: 5
   Figure: {fileID: 0}
 --- !u!1 &820200292
 GameObject:
@@ -4912,9 +4912,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 4
+  X: 3
+  Y: 7
   Figure: {fileID: 0}
 --- !u!1 &840596877
 GameObject:
@@ -5029,9 +5029,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 2
+  X: 2
+  Y: 8
   Figure: {fileID: 0}
 --- !u!1 &843548962
 GameObject:
@@ -5241,8 +5241,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Color: 0
-  X: 0
-  Y: 0
+  X: 4
+  Y: 4
   Figure: {fileID: 0}
 --- !u!1 &923355102
 GameObject:
@@ -5451,10 +5451,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6153c99cf6801a44fb1ae30f058f4a96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
+  Color: 4
   UserType: 0
   IdUser: 0
-  Cell: {fileID: 0}
+  Cell: {fileID: 20576426}
 --- !u!1 &935035846
 GameObject:
   m_ObjectHideFlags: 0
@@ -5568,9 +5568,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 3
+  X: 6
+  Y: 7
   Figure: {fileID: 0}
 --- !u!1 &942127544
 GameObject:
@@ -5685,9 +5685,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 5
+  X: 4
+  Y: 7
   Figure: {fileID: 0}
 --- !u!1 &948969308
 GameObject:
@@ -5802,9 +5802,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 5
+  X: 6
+  Y: 5
   Figure: {fileID: 0}
 --- !u!1 &973035521
 GameObject:
@@ -5919,10 +5919,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6153c99cf6801a44fb1ae30f058f4a96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  UserType: 0
+  Color: 4
+  UserType: 1
   IdUser: 0
-  Cell: {fileID: 0}
+  Cell: {fileID: 144020584}
 --- !u!1 &1021114666
 GameObject:
   m_ObjectHideFlags: 0
@@ -6036,9 +6036,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 4
+  X: 2
+  Y: 6
   Figure: {fileID: 0}
 --- !u!1 &1036621418
 GameObject:
@@ -6153,10 +6153,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
-  Figure: {fileID: 0}
+  Color: 6
+  X: 8
+  Y: 2
+  Figure: {fileID: 243571191}
 --- !u!1 &1063995869
 GameObject:
   m_ObjectHideFlags: 0
@@ -6387,10 +6387,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
-  Figure: {fileID: 0}
+  Color: 4
+  X: 8
+  Y: 4
+  Figure: {fileID: 932452738}
 --- !u!1 &1130109357
 GameObject:
   m_ObjectHideFlags: 0
@@ -6504,10 +6504,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6153c99cf6801a44fb1ae30f058f4a96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  UserType: 0
+  Color: 1
+  UserType: 1
   IdUser: 0
-  Cell: {fileID: 0}
+  Cell: {fileID: 631420862}
 --- !u!1 &1130884273
 GameObject:
   m_ObjectHideFlags: 0
@@ -6738,9 +6738,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 7
+  X: 4
+  Y: 5
   Figure: {fileID: 0}
 --- !u!1 &1175837853
 GameObject:
@@ -6855,9 +6855,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 3
+  X: 2
+  Y: 3
   Figure: {fileID: 0}
 --- !u!1 &1177483445
 GameObject:
@@ -6972,9 +6972,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 4
+  X: 7
+  Y: 3
   Figure: {fileID: 0}
 --- !u!1 &1185390872
 GameObject:
@@ -7089,10 +7089,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
-  Figure: {fileID: 0}
+  Color: 3
+  X: 8
+  Y: 5
+  Figure: {fileID: 1130884277}
 --- !u!1 &1236013584
 GameObject:
   m_ObjectHideFlags: 0
@@ -7206,10 +7206,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
-  Figure: {fileID: 0}
+  Color: 5
+  X: 1
+  Y: 6
+  Figure: {fileID: 399620295}
 --- !u!1 &1249787222
 GameObject:
   m_ObjectHideFlags: 0
@@ -7440,9 +7440,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 1
+  X: 6
+  Y: 1
   Figure: {fileID: 0}
 --- !u!1 &1299459073
 GameObject:
@@ -7557,9 +7557,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 7
+  X: 9
+  Y: 6
   Figure: {fileID: 0}
 --- !u!1 &1402174997
 GameObject:
@@ -7791,10 +7791,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6153c99cf6801a44fb1ae30f058f4a96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
+  Color: 1
   UserType: 0
   IdUser: 0
-  Cell: {fileID: 0}
+  Cell: {fileID: 654961947}
 --- !u!1 &1512667207
 GameObject:
   m_ObjectHideFlags: 0
@@ -7908,9 +7908,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 6
+  X: 4
+  Y: 6
   Figure: {fileID: 0}
 --- !u!1 &1526938375
 GameObject:
@@ -8025,9 +8025,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 1
+  X: 3
+  Y: 8
   Figure: {fileID: 0}
 --- !u!1 &1544700843
 GameObject:
@@ -8143,8 +8143,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Color: 0
-  X: 0
-  Y: 0
+  X: 6
+  Y: 6
   Figure: {fileID: 0}
 --- !u!1 &1551257819
 GameObject:
@@ -8260,8 +8260,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Color: 0
-  X: 0
-  Y: 0
+  X: 3
+  Y: 3
   Figure: {fileID: 0}
 --- !u!1 &1589019249
 GameObject:
@@ -8377,8 +8377,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Color: 0
-  X: 0
-  Y: 0
+  X: 7
+  Y: 7
   Figure: {fileID: 0}
 --- !u!1 &1633677700
 GameObject:
@@ -8493,10 +8493,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
-  Figure: {fileID: 0}
+  Color: 2
+  X: 8
+  Y: 6
+  Figure: {fileID: 1774543315}
 --- !u!1 &1646504368
 GameObject:
   m_ObjectHideFlags: 0
@@ -8844,9 +8844,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 4
+  X: 6
+  Y: 2
   Figure: {fileID: 0}
 --- !u!1 &1753078781
 GameObject:
@@ -8961,9 +8961,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 3
+  X: 4
+  Y: 1
   Figure: {fileID: 0}
 --- !u!1 &1774543311
 GameObject:
@@ -9195,10 +9195,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
-  Figure: {fileID: 0}
+  Color: 6
+  X: 1
+  Y: 7
+  Figure: {fileID: 1833571267}
 --- !u!1 &1819615947
 GameObject:
   m_ObjectHideFlags: 0
@@ -9312,9 +9312,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 3
+  X: 7
+  Y: 6
   Figure: {fileID: 0}
 --- !u!1 &1831988559
 GameObject:
@@ -9429,9 +9429,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 1
+  X: 7
+  Y: 4
   Figure: {fileID: 0}
 --- !u!1 &1833571263
 GameObject:
@@ -9546,10 +9546,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6153c99cf6801a44fb1ae30f058f4a96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  UserType: 0
+  Color: 6
+  UserType: 1
   IdUser: 0
-  Cell: {fileID: 0}
+  Cell: {fileID: 1778785758}
 --- !u!1 &1934299901
 GameObject:
   m_ObjectHideFlags: 0
@@ -9757,9 +9757,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 6
+  X: 3
+  Y: 1
   Figure: {fileID: 0}
 --- !u!1 &1988166460
 GameObject:
@@ -9874,9 +9874,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a29c9373bb454abf8368bdc9677e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: 0
-  X: 0
-  Y: 0
+  Color: 6
+  X: 2
+  Y: 4
   Figure: {fileID: 0}
 --- !u!1 &2005817686
 GameObject:
