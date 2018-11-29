@@ -1,23 +1,23 @@
 ﻿/// <summary>
-/// Разделение на белые и черные фигуры
+/// Цвета игрроков
 /// </summary>
-public enum UserType
+public enum UserColorEnum
 {
     Black = 0,
     White = 1
 }
 
 /// <summary>
-/// Цвета фигуры
+/// Цвета 
 /// </summary>
-public enum ColorType
+public enum ColorEnum
 {
     Orange = 0,
     Red = 1,
     Green = 2,
     Pink = 3,
     Yellow = 4,
-    DarkBlue = 5,
-    Blue = 6,
+    Blue = 5,
+    Lilac = 6,
     Brown = 7
 }

@@ -1,36 +1,24 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Figure : MonoBehaviour
 {
-    public ColorType Color;
+    /// <summary>
+    /// Цвет фигуры
+    /// </summary>
+    [SerializeField]
+    private ColorEnum _color;    
 
-    public UserType UserType;
+    /// <summary>
+    /// Цвет игрока
+    /// </summary>
+    [SerializeField]
+    private UserColorEnum _userColor;
 
-    public int IdUser;
+    public ColorEnum Color { get { return _color; } }
 
-    public Сell Cell;
+    public UserColorEnum UserColot { get { return _userColor; } }   
 
-    // Use this for initialization
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    void OnMouseDown() //функция клика мышью
-    {
-        if(Cell!=null)
-            Debug.Log(string.Format("{0} {1}", Cell.X, Cell.Y));
-        else
-            Debug.Log("null");
-
-        Cell = null;
-    }
 }
