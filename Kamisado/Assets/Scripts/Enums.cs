@@ -8,7 +8,7 @@ public enum UserColorEnum
 }
 
 /// <summary>
-/// Цвета 
+/// Цвета полей и фигур
 /// </summary>
 public enum ColorEnum
 {

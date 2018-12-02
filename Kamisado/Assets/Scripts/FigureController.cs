@@ -4,221 +4,106 @@ using System.Collections.Generic;
 using UnityEngine.EventSystems;
 using UnityEngine;
 
-public class FigureController : MonoBehaviour, IDragHandler, IEndDragHandler
+public abstract class FigureController : Figure, IEndDragHandler
 {
+    private bool _isActive;   
+
     [SerializeField]
-    private Transform canvas;
+    protected Transform canvas;
 
-    public bool IsMove;
+    protected int distanceMin = 30;
 
-    public event EventHandler EndDragEvent;
+    [SerializeField]
+    private SquareController _square;
 
-    public void OnDrag(PointerEventData eventData)
+    public bool IsActive
     {
-        if (!IsMove)
-            return;
-        transform.SetParent(canvas);
-        transform.position = eventData.position;
+        get { return _isActive; }
+        set
+        {
+            _isActive = value;
+            UpdateWay(_isActive);
+        }
+    }
+
+    public SquareController Square
+    {
+        get { return _square; }
+        set
+        {
+            if (value != null)
+            {
+                _square.IsFigure = false;                
+                _square = value;
+                _square.IsFigure = true;
+            }
+
+            UpdateTransform();
+        }
+    }
+
+    private void UpdateTransform()
+    {
+        transform.SetParent(Square.transform);
+        transform.position = Square.transform.position;
+        transform.localScale = Vector2.one;
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        if (EndDragEvent != null)
-            EndDragEvent.Invoke(this,null);
+        if (!IsActive || GameHelper.IsPause)
+            return;
 
-        
+        float distance = float.MaxValue;
+        SquareController squareTo = null;
+        foreach (var square in GameHelper.Squares.FindAll(s => s.IsMoveTo))
+        {
+            float d = Vector2.Distance(transform.position, square.transform.position);
+            if (d < distance && d < distanceMin)
+            {
+                distance = d;
+                squareTo = square;
+            }
+        }
 
+        if (squareTo != null)
+        {
+            IsActive = false;            
+        }
 
+        Square = squareTo;
+
+        if (WinСheck())
+        {
+            GameHelper.WinStatus = (int)UserColor;
+            return;
+        }
+
+        if (squareTo != null)
+        {            
+            NextFigure();
+        }
     }
 
-    private void Select()
+    public void CheckWay()
     {
-        //foreach (var cell in Global.Cells.FindAll(c => c.IsSelect))
-        //{
-        //    cell.IsSelect = false;
-        //}
-
-        //if (figure.UserColorType == UserColorType.Black)
-        //    SelectBlack();
-        //else
-        //    SelectWhite();
-    }
-    
-    private void SelectBlack()
-    {
-        //int x = cell.X;
-        //int y = cell.Y;
-        //try
-        //{
-        //    while (x - 1 > 0 && y + 1 < 9)
-        //    {
-        //        x--;
-        //        y++;
-        //        var cell = Global.Cells.Find(c => c.X == x && c.Y == y);
-        //        if (cell.Figure != null)
-        //            break;
-
-        //        cell.IsSelect = true;
-        //    }
-
-        //    x = Cell.X;
-        //    y = Cell.Y;
-
-        //    while (x + 1 < 9 && y + 1 < 9)
-        //    {
-        //        x++;
-        //        y++;
-        //        var cell = Global.Cells.Find(c => c.X == x && c.Y == y);
-        //        if (cell.Figure != null)
-        //            break;
-
-        //        cell.IsSelect = true;
-
-        //    }
-
-        //    x = Cell.X;
-        //    y = Cell.Y;
-
-        //    while (y + 1 < 9)
-        //    {
-        //        y++;
-        //        var cell = Global.Cells.Find(c => c.X == x && c.Y == y);
-        //        if (cell.Figure != null)
-        //            break;
-
-        //        cell.IsSelect = true;
-        //    }
-
-        //    var ss = Global.Cells.FindAll(a => a.IsSelect).Count;
-        //    if (Global.Cells.FindAll(a => a.IsSelect).Count == 0)
-        //    {
-        //        IsFocus = false;
-        //        var figure = Global.Figures.Find(f => f.UserType != UserType && f.Color == Cell.Color);
-
-        //        if (figure != null)
-        //        {
-        //            figure.IsFocus = true;
-        //            Global.UserType = figure.UserType;
-        //            Global.ColorType = figure.Color;
-        //        }
-        //    }
-        //}
-        //catch (Exception exc)
-        //{
-        //    Debug.LogError(string.Format("x:{0} y:{1}", x, y));
-        //}
+        if (IsActive && GameHelper.Squares.Find(s => s.IsMoveTo) == null)
+        {
+            if (GameHelper.CountStop >= 3)
+            {
+                GameHelper.WinStatus = (int)UserColor;
+                return;
+            }
+            GameHelper.CountStop++;
+            IsActive = false;
+            NextFigure();
+        }
     }
 
-    private void SelectWhite()
-    {
-        //int x = Cell.X;
-        //int y = Cell.Y;
-        //try
-        //{
-        //    while (x - 1 > 0 && y - 1 > 0)
-        //    {
-        //        x--;
-        //        y--;
-        //        var cell = Global.Cells.Find(c => c.X == x && c.Y == y);
-        //        if (cell.Figure != null)
-        //            break;
+    public abstract void UpdateWay(bool moveTo);
 
-        //        cell.IsSelect = true;
-        //    }
+    public abstract void NextFigure();
 
-        //    x = Cell.X;
-        //    y = Cell.Y;
-
-        //    while (x + 1 < 9 && y - 1 > 0)
-        //    {
-        //        x++;
-        //        y--;
-        //        var cell = Global.Cells.Find(c => c.X == x && c.Y == y);
-        //        if (cell.Figure != null)
-        //            break;
-
-        //        cell.IsSelect = true;
-        //    }
-
-        //    x = Cell.X;
-        //    y = Cell.Y;
-
-        //    while (y - 1 > 0)
-        //    {
-        //        y--;
-        //        var cell = Global.Cells.Find(c => c.X == x && c.Y == y);
-        //        if (cell.Figure != null)
-        //            break;
-
-        //        cell.IsSelect = true;
-        //    }
-        //    var ss = Global.Cells.FindAll(a => a.IsSelect).Count;
-        //    if (Global.Cells.FindAll(a => a.IsSelect).Count == 0)
-        //    {
-        //        IsFocus = false;
-        //        var figure = Global.Figures.Find(f => f.UserType != UserType && f.Color == Cell.Color);
-
-        //        if (figure != null)
-        //        {
-        //            figure.IsFocus = true;
-        //            Global.UserType = figure.UserType;
-        //            Global.ColorType = figure.Color;
-        //        }
-        //    }
-        //}
-        //catch (Exception exc)
-        //{
-        //    Debug.LogError(string.Format("x:{0} y:{1}", x, y));
-        //}
-    }
-
-    private float speed = 4.5F;
-
-    // Use this for initialization
-    void Start()
-    {
-        //Cell.Figure = this;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-       // if (Math.Abs(Cell.transform.position.x - transform.position.x) == 0)
-       // {
-       //     if (UserType == UserType.White && Cell.Y == 1)
-       //     {
-       //         Debug.Log("Win W");
-       //         return;
-       //     }
-       //     else if (UserType == UserType.Black && Cell.Y == 8)
-       //     {
-       //         Debug.Log("Win B");
-       //         return;
-       //     }
-       // }
-
-       // if (Cell == null)
-       //     return;
-
-       //// if (Math.Abs(Cell.transform.position.x - transform.position.x) != 0)
-       // {
-            
-       //     transform.position = Vector2.MoveTowards(transform.position, Cell.transform.position, speed * Time.deltaTime);
-       // }       
-    }
-
-    void OnMouseDown() //функция клика мышью
-    {
-        //if (Global.IsStart || UserType == UserType.Black)
-        //    return;
-
-        //foreach (var f in Global.Figures)
-        //{
-        //    f.IsFocus = false;
-        //}
-
-        //IsFocus = true;
-    }
-
+    public abstract bool WinСheck();
 
 }

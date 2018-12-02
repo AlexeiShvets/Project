@@ -3,39 +3,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SquareController : MonoBehaviour
+public class SquareController : Square
 {
-    public bool IsMoveTo;
+    private GameObject _wayTo;
+    public bool IsFigure;
+    
+    public bool IsMoveTo
+    {
+        get { return _wayTo.activeSelf; }
+        set
+        {            
+            _wayTo.SetActive(value);
+        }
+    }
 
-    //private Square cell;
-
-    //public event EventHandler SelectEvent;
-
-    //void OnMouseDown() //функция клика мышью
-    //{
-    //    if (!IsMoveTo)
-    //        return;
-
-    //    if(SelectEvent!=null)
-    //        SelectEvent.Invoke(cell,null);
-    //    //var figure = Global.Figures.Find(f => f.IsFocus);
-
-    //    //if (figure != null)
-    //    //{
-    //    //    Global.IsStart = true;
-    //    //    Figure = figure;
-    //    //    Figure.IsFocus = false;
-    //    //    Figure.Cell.Figure = null;
-    //    //    Figure.Cell = this;
-
-    //    //    figure = Global.Figures.Find(f => f.UserType != figure.UserType && f.Color == Color);
-
-    //    //    if (figure != null)
-    //    //    {
-    //    //        figure.IsFocus = true;
-    //    //        Global.UserType = figure.UserType;
-    //    //        Global.ColorType = figure.Color;
-    //    //    }
-    //    //}            
-    //}
+    void Start()
+    {
+        _wayTo = Instantiate(Resources.Load("WayTo")) as GameObject;
+        _wayTo.SetActive(false);
+        _wayTo.transform.SetParent(transform);
+        _wayTo.transform.position = transform.position;
+        _wayTo.transform.localScale = Vector2.one;
+    }
 }

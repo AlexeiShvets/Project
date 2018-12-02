@@ -61,15 +61,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BlackController.cs" />
     <Compile Include="Assets\Scripts\Enums.cs" />
     <Compile Include="Assets\Scripts\Figure.cs" />
     <Compile Include="Assets\Scripts\FigureController.cs" />
     <Compile Include="Assets\Scripts\GameHelper.cs" />
-    <Compile Include="Assets\Scripts\Global.cs" />
-    <Compile Include="Assets\Scripts\IUserController.cs" />
     <Compile Include="Assets\Scripts\Square.cs" />
     <Compile Include="Assets\Scripts\SquareController.cs" />
-    <Compile Include="Assets\Scripts\WhiteUser.cs" />
+    <Compile Include="Assets\Scripts\WhiteController.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/Work/SVN/Project/Kamisado/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

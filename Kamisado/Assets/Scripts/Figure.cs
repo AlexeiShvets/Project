@@ -9,16 +9,22 @@ public class Figure : MonoBehaviour
     /// Цвет фигуры
     /// </summary>
     [SerializeField]
-    private ColorEnum _color;    
+    private ColorEnum _color;
 
     /// <summary>
     /// Цвет игрока
     /// </summary>
-    [SerializeField]
+    //[SerializeField]
     private UserColorEnum _userColor;
 
-    public ColorEnum Color { get { return _color; } }
+    public ColorEnum Color
+    {
+        get { return _color; }
+    }
 
-    public UserColorEnum UserColot { get { return _userColor; } }   
-
+    public UserColorEnum UserColor
+    {
+        get { return _userColor; }
+        set { _userColor = value; }
+    }
 }

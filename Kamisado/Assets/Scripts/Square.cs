@@ -24,9 +24,17 @@ public class Square : MonoBehaviour
     [SerializeField]
     private int _y;
 
-    public bool IsMoveTo;
-
     public ColorEnum Color { get { return _color; } }
-    public int X { get { return _x; } }
-    public int Y { get { return _y; } }
+
+    public int X
+    {
+        get { return _x; }
+        set { _x = value; }
+    }
+
+    public int Y
+    {
+        get { return _y; }
+        set { _y = value; }
+    }
 }
